@@ -3587,3 +3587,6 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: 676
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:609)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1516)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1489)
+
+!ENTRY org.eclipse.jdt.launching 4 150 2016-03-24 02:18:18.907
+!MESSAGE The archive: D:/apps/db-derby-10.12.1.1-bin/lib/derby.jar which is referenced by the classpath, does not exist.

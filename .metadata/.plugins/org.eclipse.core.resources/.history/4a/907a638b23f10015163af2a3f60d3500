@@ -1,0 +1,10 @@
+package com.leclex.Spring.ch3.JDBC.main;
+
+public class HrPayrollSystem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.leclex.Spring.ch3.JDBC.dao;
+
+public interface EmployeeDao {
+
+}

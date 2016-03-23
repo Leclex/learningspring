@@ -1,0 +1,37 @@
+package com.leclex.Spring.ch3.JDBC.dao;
+
+import com.leclex.Spring.ch3.JDBC.model.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+	// JDBC driver name and database URL
+	static final String JDBC_DRIVER = 
+			"org.apache.derby.jdbc.ClientDriver";
+	static final String DB_URL = "jdbc:derby://localhost:1527/db";
+	
+	private void registerDriver() {
+		try {
+			Class.forName(JDBC_DRIVER).newInstance();
+		} catch (InstantiationException e) {
+		} catch (IllegalAccessException e) {
+		} catch (ClassNotFoundException e) {
+		}
+	}
+
+	@Override
+	public Employee getEmployeeById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void createEmployee() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void insertEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+}
