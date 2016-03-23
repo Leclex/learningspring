@@ -1,0 +1,11 @@
+package com.leclex.ch1.main;
+
+import com.
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ApplicationContext
+	}
+
+}

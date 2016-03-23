@@ -1,0 +1,11 @@
+package com.leclex.Spring.ch2.callbacks;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public Long generateEmployeeID() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

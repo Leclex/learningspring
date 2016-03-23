@@ -1,0 +1,17 @@
+package com.leclex.Spring.ch2.callbacks;
+
+import org.springframework.beans.factory.InitializingBean;
+
+public class EmployeeServiceImpl implements EmployeeService, InitializingBean {
+
+	@Override
+	public Long generateEmployeeID() {
+		return System.currentTimeMillis();
+	}
+
+	@Override
+	public void afterPropertiesSet() throws Exception {
+		System.out.println("Employee afterPropertiesSet...");
+	}
+
+}

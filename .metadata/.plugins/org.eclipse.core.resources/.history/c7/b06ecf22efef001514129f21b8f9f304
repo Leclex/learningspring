@@ -1,0 +1,5 @@
+package com.leclex.ch1.Service;
+
+public class GreetingMessageServiceImpl {
+
+}
