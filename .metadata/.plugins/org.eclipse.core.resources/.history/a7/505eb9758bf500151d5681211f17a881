@@ -1,0 +1,18 @@
+package com.leclex.spring.ch5.mvc.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.leclex.spring.ch5.mvc.model.Employee;
+
+@Repository
+public class EmployeeDaoImpl implements EmployeeDao {
+
+	@Override
+	public List<Employee> listEmployee() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

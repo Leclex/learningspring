@@ -1,0 +1,16 @@
+package com.leclex.spring.ch5.mvc.exception;
+
+public class GenericException extends RuntimeException {
+
+	private static final long serialVersionUID = 1L;
+	
+	private String exceptionMsg;
+	private String exceptionCode;
+	
+	public GenericException(String exceptionMsg, String exceptionCode) {
+		super();
+		this.exceptionMsg = exceptionMsg;
+		this.exceptionCode = exceptionCode;
+	}
+	
+}

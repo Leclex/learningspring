@@ -1,0 +1,5 @@
+package com.leclex.spring.ch4.hibernate.service;
+
+public interface EmployeeService {
+
+}

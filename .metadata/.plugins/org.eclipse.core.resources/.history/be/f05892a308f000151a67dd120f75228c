@@ -1,5 +1,0 @@
-package com.leclex.ch1.Service;
-
-public interface GreetingMessageService {
-
-}

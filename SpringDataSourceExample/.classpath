@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/apps/db-derby-10.12.1.1/lib/derby.jar"/>
+	<classpathentry kind="lib" path="D:/apps/db-derby-10.12.1.1/lib/derbyclient.jar"/>
+	<classpathentry kind="lib" path="D:/apps/spring-framework-4.1.6/libs/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/apps/spring-framework-4.1.6/libs/spring-aspects-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/apps/spring-framework-4.1.6/libs/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/apps/spring-framework-4.1.6/libs/spring-context-4.1.6.RELEASE.jar" sourcepath="src"/>
+	<classpathentry kind="lib" path="D:/apps/spring-framework-4.1.6/libs/spring-context-support-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/apps/spring-framework-4.1.6/libs/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/apps/spring-framework-4.1.6/libs/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/apps/spring-framework-4.1.6/libs/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/apps/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/apps/spring-framework-4.1.6/libs/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

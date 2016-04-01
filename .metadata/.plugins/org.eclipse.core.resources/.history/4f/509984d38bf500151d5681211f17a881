@@ -1,0 +1,21 @@
+package com.leclex.spring.ch5.mvc.dao;
+
+import java.util.List;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
+
+import com.leclex.spring.ch5.mvc.model.Employee;
+
+@Repository
+public class EmployeeDaoImpl implements EmployeeDao {
+
+	private static final Logger logger = LoggerFactory.getLogger(EmployeeDaoImpl.class);
+
+	@Override
+	public List<Employee> listEmployee() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

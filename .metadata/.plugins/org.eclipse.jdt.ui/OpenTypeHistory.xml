@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=eHrPayrollSystem/src\/main\/java&lt;com.leclex.spring.ch5.mvc.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1459321898553"/>
+<typeInfo handle="=eHrPayrollSystem/C:\/Users\/lecle\/.m2\/repository\/org\/springframework\/spring-jdbc\/4.2.5.RELEASE\/spring-jdbc-4.2.5.RELEASE.jar&lt;org.springframework.jdbc.datasource.embedded(EmbeddedDatabaseConfigurer.class[EmbeddedDatabaseConfigurer" modifiers="1537" timestamp="1459230433310"/>
+<typeInfo handle="=eHrPayrollSystem/src\/main\/java&lt;com.leclex.spring.ch5.mvc.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1459317612942"/>
+<typeInfo handle="=eHrPayrollSystem/C:\/Program Files\/Java\/jdk1.8.0_74\/jre\/lib\/rt.jar&lt;java.lang(RuntimeException.class[RuntimeException" modifiers="33" timestamp="1455015457355"/>
+</typeInfoHistroy>

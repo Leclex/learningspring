@@ -1,0 +1,10 @@
+package com.leclex.spring;
+
+public class SpringHibernateMain {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

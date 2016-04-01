@@ -1,0 +1,22 @@
+package com.leclex.spring.ch5.mvc.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.leclex.spring.ch5.mvc.dao.EmployeeDao;
+import com.leclex.spring.ch5.mvc.model.Employee;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Autowired
+	private EmployeeDao employeeDao;
+
+	public List<Employee> listEmployee() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

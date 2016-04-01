@@ -1,0 +1,7 @@
+package com.leclex.spring.ch5.mvc.controller;
+
+@Controller
+@RequestMapping("/employee")
+public class EmployeeController {
+
+}

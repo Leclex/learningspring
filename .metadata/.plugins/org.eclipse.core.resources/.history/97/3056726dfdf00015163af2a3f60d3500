@@ -1,9 +1,0 @@
-package com.leclex.Spring.ch2.autowiring;
-
-public class EmployeeServiceImpl implements EmployeeService {
-	private EmployeeDao employeeDao;
-	
-	public void setEmployeeDao(EmployeeDao employeeDao) {
-		this.employeeDao = employeeDao;
-	}
-}

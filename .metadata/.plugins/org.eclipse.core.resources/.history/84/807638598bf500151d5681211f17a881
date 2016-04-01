@@ -1,0 +1,15 @@
+package com.leclex.spring.ch5.mvc.dao;
+
+import java.util.List;
+
+import com.leclex.spring.ch5.mvc.model.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+
+	@Override
+	public List<Employee> listEmployee() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

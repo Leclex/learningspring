@@ -1,0 +1,5 @@
+package com.leclex.spring.ch5.mvc.model;
+
+public class Employee {
+
+}

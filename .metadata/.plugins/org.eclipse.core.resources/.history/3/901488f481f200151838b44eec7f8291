@@ -1,0 +1,19 @@
+package com.leclex.spring.ch4.hibernate.dao;
+
+import java.util.List;
+
+import com.leclex.spring.ch4.hibernate.model.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+
+	public List<Employee> getAllEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void insertEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

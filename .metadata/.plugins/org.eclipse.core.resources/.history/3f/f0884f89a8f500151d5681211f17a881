@@ -1,0 +1,5 @@
+package com.leclex.spring.ch5.mvc.exception;
+
+public class SpringException {
+
+}

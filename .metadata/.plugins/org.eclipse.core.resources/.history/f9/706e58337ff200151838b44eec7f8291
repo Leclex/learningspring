@@ -1,0 +1,9 @@
+package com.leclex.spring.ch4.hibernate.model;
+
+import javax.persistence.Entity;
+
+@Entity
+@Table(name = "employee_info")
+public class Employee {
+
+}

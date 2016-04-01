@@ -1,0 +1,36 @@
+package com.leclex.spring.ch4.hibernate.dao;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.leclex.spring.ch4.hibernate.model.Employee;
+
+@Repository
+@Transactional(readOnly = true)
+public class EmployeeDaoImpl implements EmployeeDao {
+
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	@SuppressWarnings("unchecked")
+	public List<Employee> getAllEmployees() {
+		Session session = sessionFactory.openSession();
+		String hql = "FROM Employee";
+		Query query = session.createQuery(hql);
+		List<Employee> emList = query.list();
+		return emList;
+	}
+
+	@Transactional(readOnly = false)
+	public void insertEmployee(Employee employee) {
+		Session session = sessionFactory.openSession();
+		session.save(employee);
+	}
+
+}

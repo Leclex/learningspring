@@ -1,0 +1,24 @@
+package com.leclex.spring.ch5.mvc.dao;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class EmployeeDaoImplTest {
+
+	@Test
+	public void testListEmployee() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testInsertEmployee() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDeleteEmployee() {
+		fail("Not yet implemented");
+	}
+
+}
